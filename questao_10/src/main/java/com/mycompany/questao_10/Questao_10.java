@@ -11,14 +11,21 @@ package com.mycompany.questao_10;
 public class Questao_10 {
 
     public static void main(String[] args) {
-        int a = 0, b = 0, c = 0;
+        int a = 10;
 
-        a += 3;
+        int b = 20;
 
-        b = a++ + ++b;
+        int c = 0;
 
-        c = b % a;
+        int d = 0;
 
-        System.out.println(a+b+c);
+        int resultado;
+
+        c = a > b ? 1 : 2;
+
+        d = a*c > b ? 5 : 3;
+
+        resultado = c + d;
+        System.out.println(resultado);
     }
 }
