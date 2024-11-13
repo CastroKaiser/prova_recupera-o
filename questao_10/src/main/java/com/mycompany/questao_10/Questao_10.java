@@ -11,6 +11,14 @@ package com.mycompany.questao_10;
 public class Questao_10 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        int a = 0, b = 0, c = 0;
+
+        a += 3;
+
+        b = a++ + ++b;
+
+        c = b % a;
+
+        System.out.println(a+b+c);
     }
 }

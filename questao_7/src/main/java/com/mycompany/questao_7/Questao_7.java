@@ -4,6 +4,8 @@
 
 package com.mycompany.questao_7;
 
+import java.util.Scanner;
+
 /**
  *
  * @author c.nunes
@@ -11,6 +13,6 @@ package com.mycompany.questao_7;
 public class Questao_7 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Scanner ler = new Scanner(System.in);
     }
 }
